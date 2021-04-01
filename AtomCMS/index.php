@@ -1,43 +1,65 @@
+<?php include ('config/setup.php'); ?>
 <!doctype html>
 <html lang="en">
 <head>
+    <title><?php echo $page_title. ' | ' .$site_title?></title>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <!-- bootstrap par1-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <?php include ('config/css.php'); ?>
 
-    <!--jquery ui CSS-->
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <?php include ('config/js.php'); ?>
 
-    <!--FontAwersome-->
-    <script src="https://kit.fontawesome.com/5647968d38.js" crossorigin="anonymous"></script>
-
-    <!-- jquery library-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-
-    <!--jquery ui -->
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-
-    <!-- bootstrap part2-->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-
-    <title>Document</title>
 </head>
-<body>
+    <div id="wrap">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <div class="container">
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FAQ</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </nav> <!--END main navigation-->
 
 
 
-<h1>Hello World!</h1>
 
 
+        <div class="container">
+            <h1>Hello World!
+            </h1>
+
+        </div>
+
+    </div>
 
 
-<i class="far fa-smile fa-5x"></i>
+    <footer  class="footer mt-auto py-3" id="footer">
+        <div class="container">
+            <span class="text-muted">Place sticky footer content here.</span>
+        </div>
+    </footer> <!--END footer-->
+
 
 
 
