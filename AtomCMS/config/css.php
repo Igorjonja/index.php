@@ -30,4 +30,20 @@
     .footer {
         background-color: #c2c2c2;
     }
+
+    #btn-debug{
+        position: absolute;
+    }
+    #console-debug{
+        position:absolute;
+        top: 50px;
+        left: 0px;
+        width: 30%;
+        height: 700px;
+    }
+    #console-debug pre{
+        background-color: white;
+        height: 500px;
+        overflow: scroll;
+    }
 </style>
